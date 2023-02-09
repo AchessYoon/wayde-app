@@ -9,8 +9,9 @@
   "eslint.nodePath": ".yarn/sdks",
   "eslint.validate": [
     "javascript",
+    "javascriptreact",
   ],
-  "[javascript]": {
+  "[javascript][javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
 }

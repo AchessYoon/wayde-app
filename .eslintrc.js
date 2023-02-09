@@ -3,6 +3,9 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
+    "extends": [
+        "plugin:react/recommended"
+    ],
     "overrides": [
     ],
     "parserOptions": {
@@ -10,6 +13,9 @@ module.exports = {
         "sourceType": "module",
         "project": "tsconfig.json"
     },
+    "plugins": [
+        "react"
+    ],
     "rules": {
     },
     "root": true,
