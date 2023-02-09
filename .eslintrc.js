@@ -10,7 +10,7 @@ module.exports = {
         "plugin:react/jsx-runtime",
         "airbnb-typescript",
         "airbnb/hooks",
-        "prettier"
+        "plugin:prettier/recommended"
     ],
     "overrides": [
     ],
