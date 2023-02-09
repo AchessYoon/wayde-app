@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "yarn git:include-shared-config",
+    "postinstall": "yarn git:include-shared-config; husky install",
     "git:include-shared-config": "git config --local include.path ../.gitconfig"
   },
   "browserslist": {
@@ -42,5 +42,8 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
 }
