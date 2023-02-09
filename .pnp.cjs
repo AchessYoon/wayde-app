@@ -7544,7 +7544,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["cz-conventional-changelog", [\
         ["npm:3.3.0", {\
-          "packageLocation": "./.yarn/cache/cz-conventional-changelog-npm-3.3.0-46c1d2629a-8b76671209.zip/node_modules/cz-conventional-changelog/",\
+          "packageLocation": "./.yarn/unplugged/cz-conventional-changelog-npm-3.3.0-46c1d2629a/node_modules/cz-conventional-changelog/",\
           "packageDependencies": [\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["@commitlint/load", "npm:17.4.2"],\
