@@ -10,8 +10,10 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact",
+    "typescript",
+    "typescriptreact",
   ],
-  "[javascript][javascriptreact]": {
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
 }

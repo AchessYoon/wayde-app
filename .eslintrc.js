@@ -5,10 +5,12 @@ module.exports = {
     },
     "extends": [
         "plugin:react/recommended",
+        "standard-with-typescript",
         "plugin:react/jsx-runtime"
     ],
     "overrides": [
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module",
