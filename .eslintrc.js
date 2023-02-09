@@ -8,6 +8,7 @@ module.exports = {
         "standard-with-typescript",
         "airbnb",
         "plugin:react/jsx-runtime",
+        "airbnb-typescript",
         "airbnb/hooks"
     ],
     "overrides": [
@@ -22,6 +23,7 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "import/no-unresolved": "error"
     },
     "root": true,
 }
