@@ -46,5 +46,10 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3"
+  },
+  "dependenciesMeta": {
+    "cz-conventional-changelog@3.3.0": {
+      "unplugged": true
+    }
   }
 }
