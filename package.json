@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "commit": "cz",
     "postinstall": "yarn git:include-shared-config; husky install",
     "git:include-shared-config": "git config --local include.path ../.gitconfig"
   },
