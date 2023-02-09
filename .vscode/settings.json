@@ -16,4 +16,9 @@
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "prettier.enable": true,
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "[json][yaml][md]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
