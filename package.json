@@ -58,6 +58,7 @@
     "@commitlint/cz-commitlint": "^17.4.2",
     "commitizen": "^4.3.0",
     "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
     "inquirer": "8"
   },
