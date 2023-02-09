@@ -43,6 +43,8 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3"
   }
 }
