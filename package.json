@@ -7,8 +7,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "commit": "cz",
-    "postinstall": "yarn git:include-shared-config; husky install",
-    "git:include-shared-config": "git config --local include.path ../.gitconfig"
+    "postinstall": "yarn git:include-shared-config; husky install && yarn husky:cz",
+    "git:include-shared-config": "git config --local include.path ../.gitconfig",
+    "husky:cz": "husky set .husky/prepare-commit-msg 'if [ -z $COMMIT_SOURCE ]; then exec < /dev/tty && yarn cz --hook || false; fi'"
   },
   "config": {
     "commitizen": {

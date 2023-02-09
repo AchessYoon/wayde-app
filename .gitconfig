@@ -3,3 +3,5 @@
 	ignorecase = false
 [advice]
 	ignoredHook = false
+[alias]
+	com = !yarn commit
