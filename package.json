@@ -9,6 +9,11 @@
     "postinstall": "yarn git:include-shared-config; husky install",
     "git:include-shared-config": "git config --local include.path ../.gitconfig"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
