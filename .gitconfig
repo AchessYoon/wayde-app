@@ -1,3 +1,5 @@
 # shared git configuration
 [core]
 	ignorecase = false
+[advice]
+	ignoredHook = false
