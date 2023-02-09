@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@commitlint/cli", "npm:17.4.2"],\
             ["@commitlint/config-conventional", "npm:17.4.2"],\
+            ["@commitlint/cz-commitlint", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
@@ -39,8 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.10"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["commitizen", "npm:4.3.0"],\
-            ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.3"],\
+            ["inquirer", "npm:8.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:18.2.0"],\
             ["react-scripts", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:5.0.1"],\
@@ -2881,6 +2882,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-validator", "npm:17.4.0"],\
             ["@commitlint/types", "npm:17.4.0"],\
             ["ajv", "npm:8.12.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@commitlint/cz-commitlint", [\
+        ["npm:17.4.2", {\
+          "packageLocation": "./.yarn/cache/@commitlint-cz-commitlint-npm-17.4.2-d5b2a6c034-d5f818600a.zip/node_modules/@commitlint/cz-commitlint/",\
+          "packageDependencies": [\
+            ["@commitlint/cz-commitlint", "npm:17.4.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/@commitlint-cz-commitlint-virtual-8b8b970bbb/0/cache/@commitlint-cz-commitlint-npm-17.4.2-d5b2a6c034-d5f818600a.zip/node_modules/@commitlint/cz-commitlint/",\
+          "packageDependencies": [\
+            ["@commitlint/cz-commitlint", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2"],\
+            ["@commitlint/ensure", "npm:17.4.0"],\
+            ["@commitlint/load", "npm:17.4.2"],\
+            ["@commitlint/types", "npm:17.4.0"],\
+            ["@types/commitizen", null],\
+            ["@types/inquirer", null],\
+            ["chalk", "npm:4.1.2"],\
+            ["commitizen", "npm:4.3.0"],\
+            ["inquirer", "npm:8.2.5"],\
+            ["lodash.isplainobject", "npm:4.0.6"],\
+            ["word-wrap", "npm:1.2.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/commitizen",\
+            "@types/inquirer",\
+            "commitizen",\
+            "inquirer"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7811,7 +7844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["cz-conventional-changelog", [\
         ["npm:3.3.0", {\
-          "packageLocation": "./.yarn/unplugged/cz-conventional-changelog-npm-3.3.0-46c1d2629a/node_modules/cz-conventional-changelog/",\
+          "packageLocation": "./.yarn/cache/cz-conventional-changelog-npm-3.3.0-46c1d2629a-8b76671209.zip/node_modules/cz-conventional-changelog/",\
           "packageDependencies": [\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["@commitlint/load", "npm:17.4.2"],\
@@ -18190,6 +18223,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["wayde-app", "workspace:."],\
             ["@commitlint/cli", "npm:17.4.2"],\
             ["@commitlint/config-conventional", "npm:17.4.2"],\
+            ["@commitlint/cz-commitlint", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
@@ -18199,8 +18233,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.10"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["commitizen", "npm:4.3.0"],\
-            ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.3"],\
+            ["inquirer", "npm:8.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:18.2.0"],\
             ["react-scripts", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:5.0.1"],\
