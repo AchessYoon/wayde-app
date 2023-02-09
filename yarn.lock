@@ -1929,6 +1929,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@html-eslint/eslint-plugin@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@html-eslint/eslint-plugin@npm:0.16.0"
+  checksum: 61218423ef9f7f1554e37c30fb4a12cbaea6fe0a200c2b125b5e3638aaf826a1d8495c48275daee0812936c2dc869bea04c9c9e52f7759bd4c923b2100b01c14
+  languageName: node
+  linkType: hard
+
+"@html-eslint/parser@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@html-eslint/parser@npm:0.16.0"
+  dependencies:
+    es-html-parser: ^0.0.8
+  checksum: f92341e76c7a852e15009e93b3969271f50fc0eecab75ebedb40cd625e4ce294ed27c53086181d1e931f9d5ddc49d52dad4e77c265ff1c05f943115ff4b5871a
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -6200,6 +6216,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"es-html-parser@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "es-html-parser@npm:0.0.8"
+  checksum: 3353a5e922c3877ff9f829acdb4b770cce53b2662c097f89944fa81081ad608d9ac7e3e74a169ab63ec1d6af27154a49f33f9ee638ae1c301aa10a950fc195dc
+  languageName: node
+  linkType: hard
+
 "es-module-lexer@npm:^0.9.0":
   version: 0.9.3
   resolution: "es-module-lexer@npm:0.9.3"
@@ -6537,7 +6560,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^6.1.1":
 "eslint-plugin-prettier@npm:^4.2.1":
   version: 4.2.1
   resolution: "eslint-plugin-prettier@npm:4.2.1"
@@ -14017,6 +14039,8 @@ __metadata:
     "@commitlint/cli": ^17.4.2
     "@commitlint/config-conventional": ^17.4.2
     "@commitlint/cz-commitlint": ^17.4.2
+    "@html-eslint/eslint-plugin": ^0.16.0
+    "@html-eslint/parser": ^0.16.0
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1

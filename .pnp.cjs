@@ -31,6 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.4.2"],\
             ["@commitlint/config-conventional", "npm:17.4.2"],\
             ["@commitlint/cz-commitlint", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2"],\
+            ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
+            ["@html-eslint/parser", "npm:0.16.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
@@ -3502,6 +3504,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@html-eslint/eslint-plugin", [\
+        ["npm:0.16.0", {\
+          "packageLocation": "./.yarn/cache/@html-eslint-eslint-plugin-npm-0.16.0-a4ab647e9d-61218423ef.zip/node_modules/@html-eslint/eslint-plugin/",\
+          "packageDependencies": [\
+            ["@html-eslint/eslint-plugin", "npm:0.16.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@html-eslint/parser", [\
+        ["npm:0.16.0", {\
+          "packageLocation": "./.yarn/cache/@html-eslint-parser-npm-0.16.0-041c7b75cb-f92341e76c.zip/node_modules/@html-eslint/parser/",\
+          "packageDependencies": [\
+            ["@html-eslint/parser", "npm:0.16.0"],\
+            ["es-html-parser", "npm:0.0.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8851,6 +8872,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-string", "npm:1.0.7"],\
             ["isarray", "npm:2.0.5"],\
             ["stop-iteration-iterator", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["es-html-parser", [\
+        ["npm:0.0.8", {\
+          "packageLocation": "./.yarn/cache/es-html-parser-npm-0.0.8-308f528c51-3353a5e922.zip/node_modules/es-html-parser/",\
+          "packageDependencies": [\
+            ["es-html-parser", "npm:0.0.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18862,6 +18892,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.4.2"],\
             ["@commitlint/config-conventional", "npm:17.4.2"],\
             ["@commitlint/cz-commitlint", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:17.4.2"],\
+            ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
+            ["@html-eslint/parser", "npm:0.16.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
