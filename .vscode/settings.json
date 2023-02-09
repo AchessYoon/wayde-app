@@ -21,5 +21,12 @@
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
   "[json][yaml][md]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   }
 }
