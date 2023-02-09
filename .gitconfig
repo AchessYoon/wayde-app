@@ -1,1 +1,3 @@
 # shared git configuration
+[core]
+	ignorecase = false
