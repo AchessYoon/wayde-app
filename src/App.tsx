@@ -1,9 +1,9 @@
-import './App.css';
+import "./App.css";
 
-function App() {
+export default function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="app-header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -11,5 +11,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
