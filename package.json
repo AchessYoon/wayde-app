@@ -18,7 +18,9 @@
     "lint:html": "eslint 'public/*.html'",
     "lint:html:fix": "eslint 'public/*.html' --fix",
     "lint:etc": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --check",
-    "lint:etc:fix": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --write"
+    "lint:etc:fix": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --write",
+    "lint": "yarn run lint:es && yarn run lint:style && yarn run lint:html && yarn run lint:etc",
+    "lint:fix": "yarn run lint:es:fix && yarn run lint:style:fix && yarn run lint:html:fix && yarn run lint:etc:fix"
   },
   "config": {
     "commitizen": {
