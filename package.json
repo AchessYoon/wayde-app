@@ -13,6 +13,8 @@
     "husky:commitlint": "husky set .husky/commit-msg 'yarn commitlint --edit $1'",
     "lint:es": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}'",
     "lint:es:fix": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}' --fix",
+    "lint:html": "eslint 'public/*.html'",
+    "lint:html:fix": "eslint 'public/*.html' --fix",
     "lint:etc": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --check",
     "lint:etc:fix": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --write"
   },
