@@ -12,7 +12,9 @@
     "husky:cz": "husky set .husky/prepare-commit-msg 'if [ -z $COMMIT_SOURCE ]; then exec < /dev/tty && yarn cz --hook || false; fi'",
     "husky:commitlint": "husky set .husky/commit-msg 'yarn commitlint --edit $1'",
     "lint:es": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}'",
-    "lint:es:fix": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}' --fix"
+    "lint:es:fix": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}' --fix",
+    "lint:etc": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --check",
+    "lint:etc:fix": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --write"
   },
   "config": {
     "commitizen": {
