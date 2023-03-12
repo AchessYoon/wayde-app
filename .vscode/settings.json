@@ -12,8 +12,9 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
+    "html"
   ],
-  "[javascript][javascriptreact][typescript][typescriptreact]": {
+  "[javascript][javascriptreact][typescript][typescriptreact][html]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "prettier.enable": true,
