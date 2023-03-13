@@ -11,16 +11,16 @@
     "git:include-shared-config": "git config --local include.path ../.gitconfig",
     "husky:cz": "husky set .husky/prepare-commit-msg 'if [ -z $COMMIT_SOURCE ]; then exec < /dev/tty && yarn cz --hook || false; fi'",
     "husky:commitlint": "husky set .husky/commit-msg 'yarn commitlint --edit $1'",
-    "lint:es": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}'",
-    "lint:es:fix": "eslint './*.{js,jsx,ts,tsx}' '{src,public}/**/*.{js,jsx,ts,tsx}' --fix",
-    "lint:style": "stylelint 'src/**/*.css'",
-    "lint:style:fix": "stylelint 'src/**/*.css' --fix",
-    "lint:html": "eslint 'public/*.html'",
-    "lint:html:fix": "eslint 'public/*.html' --fix",
-    "lint:etc": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --check",
-    "lint:etc:fix": "prettier './*.{json,yaml,md}' '{src,public}/**/*.{json,yaml,md}' --write",
-    "lint": "yarn run lint:es && yarn run lint:style && yarn run lint:html && yarn run lint:etc",
-    "lint:fix": "yarn run lint:es:fix && yarn run lint:style:fix && yarn run lint:html:fix && yarn run lint:etc:fix"
+    "lint:es": "eslint '**/*.{js,jsx,ts,tsx}' --ignore-path .gitignore",
+    "lint:es:fix": "yarn lint:es --fix",
+    "lint:style": "stylelint '**/*.css' --ignore-path .gitignore",
+    "lint:style:fix": "yarn lint:style --fix",
+    "lint:html": "eslint '**/*.html' --ignore-path .gitignore",
+    "lint:html:fix": "yarn lint:html --fix",
+    "lint:etc": "prettier '**/*.{json,yaml,md}' --ignore-path .gitignore --check",
+    "lint:etc:fix": "yarn lint:etc --write",
+    "lint": "yarn lint:es && yarn lint:style && yarn lint:html && yarn lint:etc",
+    "lint:fix": "yarn lint:es:fix && yarn lint:style:fix && yarn lint:html:fix && yarn lint:etc:fix"
   },
   "config": {
     "commitizen": {
