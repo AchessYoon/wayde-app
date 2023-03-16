@@ -6,7 +6,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "postinstall": "yarn git:include-shared-config",
     "git:include-shared-config": "git config --local include.path ../.gitconfig"
   },
