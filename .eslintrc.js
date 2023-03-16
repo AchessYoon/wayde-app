@@ -21,6 +21,7 @@ module.exports = {
         "plugin:react/jsx-runtime",
         "airbnb-typescript",
         "airbnb/hooks",
+        "plugin:react-redux/recommended",
         "plugin:prettier/recommended",
       ],
       rules: {
@@ -28,7 +29,7 @@ module.exports = {
       },
     },
     {
-      files: "src/**/*Slice.js",
+      files: "src/**/*Slice.ts",
       rules: { "no-param-reassign": ["error", { props: false }] },
     },
     {

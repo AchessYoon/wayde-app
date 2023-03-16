@@ -57,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:6.1.1"],\
             ["eslint-plugin-react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.6.0"],\
+            ["eslint-plugin-react-redux", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.0.0"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.5"],\
             ["lint-staged", "npm:13.2.0"],\
@@ -9835,6 +9836,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["eslint-plugin-react-redux", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-react-redux-npm-4.0.0-fa4f635821-98ae9a6dd0.zip/node_modules/eslint-plugin-react-redux/",\
+          "packageDependencies": [\
+            ["eslint-plugin-react-redux", "npm:4.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-redux-virtual-c8e9f47ecb/0/cache/eslint-plugin-react-redux-npm-4.0.0-fa4f635821-98ae9a6dd0.zip/node_modules/eslint-plugin-react-redux/",\
+          "packageDependencies": [\
+            ["eslint-plugin-react-redux", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.0.0"],\
+            ["@types/eslint", null],\
+            ["@types/eslint-plugin-react", null],\
+            ["eslint", "npm:8.34.0"],\
+            ["eslint-plugin-react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:7.32.2"],\
+            ["eslint-rule-composer", "npm:0.3.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint-plugin-react",\
+            "@types/eslint",\
+            "eslint-plugin-react",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["eslint-plugin-testing-library", [\
         ["npm:5.10.0", {\
           "packageLocation": "./.yarn/cache/eslint-plugin-testing-library-npm-5.10.0-0a90bb11a1-3278fc4683.zip/node_modules/eslint-plugin-testing-library/",\
@@ -9854,6 +9882,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/eslint",\
             "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-rule-composer", [\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/eslint-rule-composer-npm-0.3.0-0188afafaa-c2f57cded8.zip/node_modules/eslint-rule-composer/",\
+          "packageDependencies": [\
+            ["eslint-rule-composer", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19724,6 +19761,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:6.1.1"],\
             ["eslint-plugin-react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.6.0"],\
+            ["eslint-plugin-react-redux", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.0.0"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.5"],\
             ["lint-staged", "npm:13.2.0"],\

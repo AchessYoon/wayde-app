@@ -6708,7 +6708,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.27.1, eslint-plugin-react@npm:^7.32.2":
+"eslint-plugin-react-redux@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-react-redux@npm:4.0.0"
+  dependencies:
+    eslint-plugin-react: ^7.28.0
+    eslint-rule-composer: ^0.3.0
+  peerDependencies:
+    eslint: ^7 || ^8
+    eslint-plugin-react: ^7.28.0
+  checksum: 98ae9a6dd08917a821a878a1751061acf5f020e5272ba6036220466fc0b00e51b7c7b333f5643cc959108999264df0bcecc47b8e4f7eaef641999873cff8978f
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react@npm:^7.27.1, eslint-plugin-react@npm:^7.28.0, eslint-plugin-react@npm:^7.32.2":
   version: 7.32.2
   resolution: "eslint-plugin-react@npm:7.32.2"
   dependencies:
@@ -6741,6 +6754,13 @@ __metadata:
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
   checksum: 3278fc4683a99d24ac2b6d2ed0359db1b0509674350e4b9a958a226f57b4b90e070c02e1f4c2806da885d8025c1e8c952cb9a5e9751e69baac3d12cfe6804000
+  languageName: node
+  linkType: hard
+
+"eslint-rule-composer@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "eslint-rule-composer@npm:0.3.0"
+  checksum: c2f57cded8d1c8f82483e0ce28861214347e24fd79fd4144667974cd334d718f4ba05080aaef2399e3bbe36f7d6632865110227e6b176ed6daa2d676df9281b1
   languageName: node
   linkType: hard
 
@@ -14701,6 +14721,7 @@ __metadata:
     eslint-plugin-promise: ^6.1.1
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-redux: ^4.0.0
     husky: ^8.0.3
     inquirer: 8
     lint-staged: ^13.2.0
