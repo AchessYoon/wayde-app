@@ -28,6 +28,10 @@ module.exports = {
       },
     },
     {
+      files: "src/**/*Slice.js",
+      rules: { "no-param-reassign": ["error", { props: false }] },
+    },
+    {
       files: "*.html",
       parser: "@html-eslint/parser",
       plugins: ["@html-eslint"],
