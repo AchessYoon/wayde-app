@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", ".eslintrc.js", "commitlint.config.js"]
+  "include": ["src", ".eslintrc.js", "commitlint.config.js", "craco.config.js"]
 }
