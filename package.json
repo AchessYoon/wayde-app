@@ -74,6 +74,8 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@commitlint/cz-commitlint": "^17.4.2",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
     "@html-eslint/eslint-plugin": "^0.16.0",
     "@html-eslint/parser": "^0.16.0",
     "@tanstack/eslint-plugin-query": "^4.29.9",
