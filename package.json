@@ -76,6 +76,7 @@
     "@commitlint/cz-commitlint": "^17.4.2",
     "@html-eslint/eslint-plugin": "^0.16.0",
     "@html-eslint/parser": "^0.16.0",
+    "@tanstack/eslint-plugin-query": "^4.29.9",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "commitizen": "^4.3.0",

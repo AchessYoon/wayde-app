@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
             ["@html-eslint/parser", "npm:0.16.0"],\
             ["@reduxjs/toolkit", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:1.9.3"],\
+            ["@tanstack/eslint-plugin-query", "npm:4.29.9"],\
             ["@tanstack/react-query", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@tanstack/react-query-devtools", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
@@ -4451,6 +4452,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@svgr/plugin-jsx", "npm:5.5.0"],\
             ["@svgr/plugin-svgo", "npm:5.5.0"],\
             ["loader-utils", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tanstack/eslint-plugin-query", [\
+        ["npm:4.29.9", {\
+          "packageLocation": "./.yarn/cache/@tanstack-eslint-plugin-query-npm-4.29.9-338461f956-d6a3697498.zip/node_modules/@tanstack/eslint-plugin-query/",\
+          "packageDependencies": [\
+            ["@tanstack/eslint-plugin-query", "npm:4.29.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19862,6 +19872,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
             ["@html-eslint/parser", "npm:0.16.0"],\
             ["@reduxjs/toolkit", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:1.9.3"],\
+            ["@tanstack/eslint-plugin-query", "npm:4.29.9"],\
             ["@tanstack/react-query", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@tanstack/react-query-devtools", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\

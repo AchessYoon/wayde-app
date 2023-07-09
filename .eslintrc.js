@@ -22,6 +22,7 @@ module.exports = {
         "airbnb-typescript",
         "airbnb/hooks",
         "plugin:react-redux/recommended",
+        "plugin:@tanstack/eslint-plugin-query/recommended",
         "plugin:prettier/recommended",
       ],
       rules: {

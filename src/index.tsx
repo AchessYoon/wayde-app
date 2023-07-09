@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Provider } from "react-redux";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import App from "./App";
 import store from "./app/store";
 import reportWebVitals from "./reportWebVitals";
@@ -16,6 +17,7 @@ root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <Provider store={store}>
+        <ReactQueryDevtools initialIsOpen={false} />
         <App />
       </Provider>
     </QueryClientProvider>
