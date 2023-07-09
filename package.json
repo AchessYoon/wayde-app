@@ -99,6 +99,7 @@
     "inquirer": "8",
     "lint-staged": "^13.2.0",
     "prettier": "2.8.4",
+    "react-app-alias": "^2.2.2",
     "stylelint": "^14.0.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^29.0.0"
