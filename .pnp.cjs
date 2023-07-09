@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
             ["@html-eslint/parser", "npm:0.16.0"],\
             ["@reduxjs/toolkit", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:1.9.3"],\
+            ["@tanstack/react-query", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
@@ -4449,6 +4450,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@svgr/plugin-jsx", "npm:5.5.0"],\
             ["@svgr/plugin-svgo", "npm:5.5.0"],\
             ["loader-utils", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tanstack/query-core", [\
+        ["npm:4.29.19", {\
+          "packageLocation": "./.yarn/cache/@tanstack-query-core-npm-4.29.19-c5488a82f3-91a79dbebe.zip/node_modules/@tanstack/query-core/",\
+          "packageDependencies": [\
+            ["@tanstack/query-core", "npm:4.29.19"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tanstack/react-query", [\
+        ["npm:4.29.19", {\
+          "packageLocation": "./.yarn/cache/@tanstack-react-query-npm-4.29.19-b14eecf2d2-2780ac35b4.zip/node_modules/@tanstack/react-query/",\
+          "packageDependencies": [\
+            ["@tanstack/react-query", "npm:4.29.19"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19", {\
+          "packageLocation": "./.yarn/__virtual__/@tanstack-react-query-virtual-81cac27987/0/cache/@tanstack-react-query-npm-4.29.19-b14eecf2d2-2780ac35b4.zip/node_modules/@tanstack/react-query/",\
+          "packageDependencies": [\
+            ["@tanstack/react-query", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
+            ["@tanstack/query-core", "npm:4.29.19"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-native", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:18.2.0"],\
+            ["react-native", null],\
+            ["use-sync-external-store", "virtual:81cac27987c1d2126816de9db1d6266d130e17fb3ea634d44423e21ee171282d769139da425bc714cbb02df28899cc5b81a04bbf5b60ed259b4de90f3d94427b#npm:1.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react-native",\
+            "@types/react",\
+            "react-dom",\
+            "react-native",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17025,7 +17067,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:18.2.0"],\
             ["react-native", null],\
             ["redux", null],\
-            ["use-sync-external-store", "virtual:1f276020f9e5b8eb32bed047329ec440db26b58773de8ad21b897218e5c5916d51fe0f83d597ca32ee8e05a5f3bf3373226ac5bb87e2a4ba4da0863aa0e5eb68#npm:1.2.0"]\
+            ["use-sync-external-store", "virtual:81cac27987c1d2126816de9db1d6266d130e17fb3ea634d44423e21ee171282d769139da425bc714cbb02df28899cc5b81a04bbf5b60ed259b4de90f3d94427b#npm:1.2.0"]\
           ],\
           "packagePeers": [\
             "@types/react-dom",\
@@ -19573,10 +19615,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:1f276020f9e5b8eb32bed047329ec440db26b58773de8ad21b897218e5c5916d51fe0f83d597ca32ee8e05a5f3bf3373226ac5bb87e2a4ba4da0863aa0e5eb68#npm:1.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-ee010d3c28/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-5c639e0f8d.zip/node_modules/use-sync-external-store/",\
+        ["virtual:81cac27987c1d2126816de9db1d6266d130e17fb3ea634d44423e21ee171282d769139da425bc714cbb02df28899cc5b81a04bbf5b60ed259b4de90f3d94427b#npm:1.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-4c2ce2ee44/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-5c639e0f8d.zip/node_modules/use-sync-external-store/",\
           "packageDependencies": [\
-            ["use-sync-external-store", "virtual:1f276020f9e5b8eb32bed047329ec440db26b58773de8ad21b897218e5c5916d51fe0f83d597ca32ee8e05a5f3bf3373226ac5bb87e2a4ba4da0863aa0e5eb68#npm:1.2.0"],\
+            ["use-sync-external-store", "virtual:81cac27987c1d2126816de9db1d6266d130e17fb3ea634d44423e21ee171282d769139da425bc714cbb02df28899cc5b81a04bbf5b60ed259b4de90f3d94427b#npm:1.2.0"],\
             ["@types/react", "npm:18.0.27"],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -19738,6 +19780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@html-eslint/eslint-plugin", "npm:0.16.0"],\
             ["@html-eslint/parser", "npm:0.16.0"],\
             ["@reduxjs/toolkit", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:1.9.3"],\
+            ["@tanstack/react-query", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:4.29.19"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:13.5.0"],\
