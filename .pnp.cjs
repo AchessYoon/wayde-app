@@ -76,6 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint", "npm:14.16.1"],\
             ["stylelint-config-idiomatic-order", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:9.0.0"],\
             ["stylelint-config-standard", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:29.0.0"],\
+            ["stylelint-config-tailwindcss", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:0.0.7"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -19500,6 +19501,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["stylelint-config-tailwindcss", [\
+        ["npm:0.0.7", {\
+          "packageLocation": "./.yarn/cache/stylelint-config-tailwindcss-npm-0.0.7-4a72298270-a6fff2361d.zip/node_modules/stylelint-config-tailwindcss/",\
+          "packageDependencies": [\
+            ["stylelint-config-tailwindcss", "npm:0.0.7"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:0.0.7", {\
+          "packageLocation": "./.yarn/__virtual__/stylelint-config-tailwindcss-virtual-de4a4cfb2b/0/cache/stylelint-config-tailwindcss-npm-0.0.7-4a72298270-a6fff2361d.zip/node_modules/stylelint-config-tailwindcss/",\
+          "packageDependencies": [\
+            ["stylelint-config-tailwindcss", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:0.0.7"],\
+            ["@types/stylelint", null],\
+            ["@types/tailwindcss", null],\
+            ["stylelint", "npm:14.16.1"],\
+            ["tailwindcss", "npm:3.3.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/stylelint",\
+            "@types/tailwindcss",\
+            "stylelint",\
+            "tailwindcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["stylelint-order", [\
         ["npm:5.0.0", {\
           "packageLocation": "./.yarn/cache/stylelint-order-npm-5.0.0-2d2c35dc2a-fa3ace3cc6.zip/node_modules/stylelint-order/",\
@@ -20769,6 +20796,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint", "npm:14.16.1"],\
             ["stylelint-config-idiomatic-order", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:9.0.0"],\
             ["stylelint-config-standard", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:29.0.0"],\
+            ["stylelint-config-tailwindcss", "virtual:2c281b01deecdbaefa440e66839a141d502258b6a42730a1a59bd8245c533dcd19cac0fc93bd9374f9fef4bd962f3e3e66326be7cad1ecbda3e0f8a4be6a50eb#npm:0.0.7"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["web-vitals", "npm:2.1.4"]\

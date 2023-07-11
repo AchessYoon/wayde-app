@@ -104,6 +104,7 @@
     "stylelint": "^14.0.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
     "tailwindcss": "^3.3.2"
   },
   "engines": {

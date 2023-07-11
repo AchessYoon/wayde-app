@@ -14450,6 +14450,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"stylelint-config-tailwindcss@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "stylelint-config-tailwindcss@npm:0.0.7"
+  peerDependencies:
+    stylelint: ">=13.13.1"
+    tailwindcss: ">=2.2.16"
+  checksum: a6fff2361d0a1c65186db238aef7d30ed53934fbebc5ed2f4942625312a94ceed8728135e3bf0f5fb7ca8a3a51be1af085f38bea2825e181a575efbf06be9742
+  languageName: node
+  linkType: hard
+
 "stylelint-order@npm:^5.0.0":
   version: 5.0.0
   resolution: "stylelint-order@npm:5.0.0"
@@ -15543,6 +15553,7 @@ __metadata:
     stylelint: ^14.0.0
     stylelint-config-idiomatic-order: ^9.0.0
     stylelint-config-standard: ^29.0.0
+    stylelint-config-tailwindcss: ^0.0.7
     tailwindcss: ^3.3.2
     typescript: ^4.9.5
     web-vitals: ^2.1.0
