@@ -23,6 +23,7 @@ module.exports = {
         "airbnb/hooks",
         "plugin:react-redux/recommended",
         "plugin:@tanstack/eslint-plugin-query/recommended",
+        "plugin:tailwindcss/recommended",
         "plugin:prettier/recommended",
       ],
       rules: {
