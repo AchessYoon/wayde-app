@@ -18,5 +18,11 @@
     "baseUrl": ".",
     "paths": {}
   },
-  "include": ["src", ".eslintrc.js", "commitlint.config.js", "craco.config.js"]
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "commitlint.config.js",
+    "craco.config.js",
+    "tailwind.config.js"
+  ]
 }
